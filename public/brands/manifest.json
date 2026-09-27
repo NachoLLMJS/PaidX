@@ -1,0 +1,14 @@
+{
+  "flap": {
+    "sourcePage": "https://flap.sh/launch?chain=bnb",
+    "sourceAsset": "https://flap.sh/icon.svg?325cd9584785f294",
+    "localFile": "/brands/flap.svg",
+    "format": "SVG"
+  },
+  "fourMeme": {
+    "sourcePage": "https://four.meme/en/create-token",
+    "sourceAsset": "https://four.meme/_next/static/media/logo-square.05d-1ttqbfnze.svg",
+    "localFile": "/brands/fourmeme.svg",
+    "format": "SVG"
+  }
+}

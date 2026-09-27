@@ -12,6 +12,10 @@ assert.match(js, /data-profile/);
 assert.match(js, /\/profiles\/cz_binance\.jpg/);
 assert.match(js, /duplicatedProfileCards/);
 assert.match(js, /\/brand\/paidx-logo\.svg/);
+assert.match(js, /\/brands\/flap\.svg/);
+assert.match(js, /\/brands\/fourmeme\.svg/);
+assert.doesNotMatch(js, /venue-mark flap">F</);
+assert.doesNotMatch(js, /venue-mark four">4</);
 assert.match(css, /@keyframes profileMarquee/);
 assert.match(js, /0x38/); // BNB Chain mainnet
 assert.match(js, /window\.ethereum/);

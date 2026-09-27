@@ -134,7 +134,10 @@ main { margin-left: 76px; padding-top: 64px; }
 .venue { min-height: 67px; border: 1px solid #333; background: #181818; color: white; border-radius: 13px; padding: 10px 12px; display: grid; grid-template-columns: 39px 1fr 19px; align-items: center; gap: 10px; text-align: left; cursor: pointer; }
 .venue:hover { border-color: #555; }
 .venue.selected { border-color: var(--bnb); background: #1c1a10; }
-.venue-mark { width: 39px; height: 39px; display: grid; place-items: center; border-radius: 9px; background: var(--bnb-bright); color: #111; font-weight: 900; font-size: 16px; }
+.venue-mark { width: 39px; height: 39px; display: grid; place-items: center; border-radius: 9px; background: #101010; border: 1px solid #323232; overflow: hidden; }
+.venue-mark img { width: 27px; height: 27px; display: block; object-fit: contain; }
+.venue-mark.flap img { width: 30px; height: 30px; }
+.venue-mark.four img { width: 25px; height: 26px; }
 .venue div { display: grid; gap: 4px; }
 .venue strong { font-size: 12px; }
 .venue small { color: #777c83; font-size: 9px; }
