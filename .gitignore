@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.vercel/
+*.log
+qa-*.png
+qa-*.jpg
+.DS_Store
+Thumbs.db

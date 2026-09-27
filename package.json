@@ -1,0 +1,16 @@
+{
+  "name": "paidx-profile-launchpad",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node tests/site.test.mjs"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.63.0",
+    "vite": "^7.1.7"
+  }
+}

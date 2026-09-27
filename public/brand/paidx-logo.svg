@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">PaidX logo</title>
+  <desc id="desc">Black P and BNB yellow X monogram</desc>
+  <rect x="8" y="8" width="240" height="240" rx="58" fill="#F7F7F2"/>
+  <path d="M56 202V54h72c43 0 70 23 70 61 0 39-27 63-70 63H91v24H56zm35-57h34c24 0 37-10 37-29 0-19-13-29-37-29H91v58z" fill="#0B0B0B"/>
+  <path d="M124 108h35l24 32 25-32h32l-40 52 41 55h-35l-25-34-27 34h-32l42-55-40-52z" fill="#F0B90B"/>
+</svg>

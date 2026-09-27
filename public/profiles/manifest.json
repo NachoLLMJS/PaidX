@@ -1,0 +1,50 @@
+[
+  {
+    "handle": "cz_binance",
+    "xProfile": "https://x.com/cz_binance",
+    "source": "https://pbs.twimg.com/profile_images/2041696316451909632/7K4xEnRE_400x400.jpg",
+    "file": "/profiles/cz_binance.jpg",
+    "contentType": "image/jpeg",
+    "bytes": 28070
+  },
+  {
+    "handle": "BNBCHAIN",
+    "xProfile": "https://x.com/BNBCHAIN",
+    "source": "https://pbs.twimg.com/profile_images/2059175505979416576/zXDKN1CA_400x400.jpg",
+    "file": "/profiles/bnbchain.jpg",
+    "contentType": "image/jpeg",
+    "bytes": 11485
+  },
+  {
+    "handle": "binance",
+    "xProfile": "https://x.com/binance",
+    "source": "https://pbs.twimg.com/profile_images/1940131561103347712/f5y2qENu_400x400.jpg",
+    "file": "/profiles/binance.jpg",
+    "contentType": "image/jpeg",
+    "bytes": 10631
+  },
+  {
+    "handle": "heyibinance",
+    "xProfile": "https://x.com/heyibinance",
+    "source": "https://pbs.twimg.com/profile_images/2044437684144291841/vDSm1Vh9_400x400.jpg",
+    "file": "/profiles/heyibinance.jpg",
+    "contentType": "image/jpeg",
+    "bytes": 13315
+  },
+  {
+    "handle": "Aster_DEX",
+    "xProfile": "https://x.com/Aster_DEX",
+    "source": "https://pbs.twimg.com/profile_images/2008172513965326336/4MwHdULr_400x400.jpg",
+    "file": "/profiles/aster_dex.jpg",
+    "contentType": "image/jpeg",
+    "bytes": 9197
+  },
+  {
+    "handle": "opbnbchain",
+    "xProfile": "https://x.com/opbnbchain",
+    "source": "https://pbs.twimg.com/profile_images/1671740534946136064/40ZdWox3_400x400.jpg",
+    "file": "/profiles/opbnbchain.jpg",
+    "contentType": "image/jpeg",
+    "bytes": 15816
+  }
+]
