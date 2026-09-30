@@ -66,7 +66,7 @@ app.innerHTML = `
 
   <header class="topbar">
     <label class="search-field" for="globalSearch">${icons.search}<input id="globalSearch" placeholder="Search @handle or launch a profile" autocomplete="off"><kbd>/</kbd></label>
-    <div class="top-actions"><span class="network-status"><i></i> BNB Chain</span><a class="pill-button light" href="#launch">Launch</a></div>
+    <div class="top-actions"><span class="network-status"><i></i> BNB Chain</span><a class="x-social" href="https://x.com/PaidXBNB" target="_blank" rel="noopener noreferrer" aria-label="Follow PaidX on X"><span class="x-social-mark" aria-hidden="true">𝕏</span><span class="x-social-label">@PaidXBNB</span></a><a class="pill-button light" href="#launch">Launch</a></div>
   </header>
 
   <main id="main">

@@ -47,6 +47,11 @@ kbd { border: 1px solid #363636; background: #191919; color: #777b81; border-rad
 .top-actions { display: flex; align-items: center; gap: 11px; }
 .network-status { display: flex; gap: 8px; align-items: center; color: #b7b7b7; font-size: 12px; }
 .network-status i, .status-pill i { width: 7px; height: 7px; border-radius: 50%; background: var(--bnb); box-shadow: 0 0 0 3px rgba(240,185,11,.12); }
+.x-social { min-height: 38px; padding: 0 14px; border: 1px solid #343434; border-radius: 999px; background: #151515; color: #f4f4f4; display: inline-flex; align-items: center; justify-content: center; gap: 8px; font-size: 12px; font-weight: 750; transition: transform .16s, border-color .16s, background .16s; }
+.x-social:hover { transform: translateY(-1px); border-color: #555; background: #1d1d1d; }
+.x-social:focus-visible { outline: 2px solid var(--bnb-bright); outline-offset: 3px; }
+.x-social-mark { font-size: 16px; line-height: 1; }
+.x-social-label { white-space: nowrap; }
 .pill-button { min-height: 43px; padding: 0 25px; border: 1px solid var(--line); border-radius: 999px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; font-size: 13px; font-weight: 750; transition: transform .16s, background .16s, border-color .16s; }
 .pill-button:hover { transform: translateY(-1px); }
 .pill-button.light { background: #f7f7f7; color: #111; border-color: #f7f7f7; min-height: 38px; }
@@ -257,9 +262,12 @@ footer > small { grid-column: 1 / -1; border-top: 1px solid var(--line); padding
   body { padding-bottom: 65px; }
   .sidebar { display: none; }
   .topbar { left: 0; height: 59px; padding: 0 12px; }
-  .search-field { width: calc(100% - 52px); height: 39px; }
+  .search-field { flex: 1; width: auto; min-width: 0; height: 39px; }
   .search-field input { font-size: 12px; }
   .top-actions .network-status { display: none; }
+  .top-actions { gap: 7px; }
+  .x-social { width: 42px; min-width: 42px; min-height: 38px; padding: 0; }
+  .x-social-label { display: none; }
   .top-actions .pill-button { width: 42px; min-width: 42px; padding: 0; font-size: 0; }
   .top-actions .pill-button::before { content: '↗'; font-size: 17px; }
   main { margin-left: 0; padding-top: 59px; }
